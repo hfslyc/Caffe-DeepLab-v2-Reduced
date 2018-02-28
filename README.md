@@ -1,4 +1,13 @@
-## DeepLab v2
+
+
+
+## DeepLab v2 with CUDA 6.0 compatibility and reduced memory for FCN
+
+This is a DeepLab-v2 caffe with the following modification:
+
+* CUDA 6.0 compatibility [link](https://stackoverflow.com/questions/39274472/error-function-atomicadddouble-double-has-already-been-defined)
+* Share memory for FCN [link](https://github.com/BVLC/caffe/pull/2016)
+
 
 ### Introduction
 
